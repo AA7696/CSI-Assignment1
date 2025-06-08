@@ -1,12 +1,24 @@
-# React + Vite
+# React Form with Validation and Submission Details Display
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that provides a form with client-side validation (no third-party libraries), and displays submitted data on a separate page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Fields:** First Name, Last Name, Username, E-mail, Password (show/hide), Phone No. (country code + number), Country (dropdown), City (dropdown), PAN No., Aadhar No.
+- **Validation:** Required fields with inline error messages.
+- **Password toggle:** Show/hide password functionality.
+- **Form submission:** Disabled submit button until all fields are valid.
+- **Data display:** Shows all submitted details on a new route after successful submission.
+- **Responsive UI:** Works well on desktop and mobile screens using Tailwind CSS.
+- **Routing:** Uses React Router for navigating between form and details page.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
