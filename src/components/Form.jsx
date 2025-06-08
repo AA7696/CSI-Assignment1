@@ -64,6 +64,7 @@ const Form = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center md:p-6">
       <div className="bg-white p-1 md:p-8 rounded-2xl shadow-xl w-full md:max-w-4xl">
+        <h1 className='text-2xl font-semibold text-center mb-6 '>CSI-2025 Assignment 1</h1>
         <h2 className="text-3xl font-semibold text-center mb-6 text-blue-700">User Registration</h2>
         <form onSubmit={handleSubmit}  className=' flex flex-col gap-6 md:grid md:grid-cols-2 md:gap-8'>
             <div>
